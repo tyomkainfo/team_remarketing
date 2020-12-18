@@ -1,5 +1,10 @@
 $font-main: 'Myriad Pro', sans-serif;
 $font-sub: 'Oswald', sans-serif;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 .specialists {
   padding-top: 90px;
@@ -17,19 +22,19 @@ $font-sub: 'Oswald', sans-serif;
   h4 {
     font-size: 18px;
     font-family: $font-sub;
+    margin-bottom: 56px;
+    color: black;
   }
   &:after {
     content: "";
     display: block;
-    width: 35%;
+    width: 40%;
     border-bottom: 1px dashed black;
-    padding-top: 186px;
-  }
-  &:after:last-of-type {
-    content: "";
-    display: block;
-    border-bottom: none;
-    padding-top: 186px;
+    padding-top: 130px;
+    @include max-screen (768px) {
+      border-bottom: none;
+      padding-top: 40px;
+    }
   }
 }
 .last_block {
@@ -37,6 +42,5 @@ $font-sub: 'Oswald', sans-serif;
     content: "";
     display: block;
     border-bottom: none!important;
-    padding-top: 186px;
   }
 }

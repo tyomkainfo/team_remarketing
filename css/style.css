@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @import url(bootstrap.css);
 @import url(bootstrap-theme.css);
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
@@ -58,23 +57,23 @@
     margin-bottom: 58px; }
   .specialists h4 {
     font-size: 18px;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 56px;
+    color: black; }
   .specialists:after {
     content: "";
     display: block;
-    width: 35%;
+    width: 40%;
     border-bottom: 1px dashed black;
-    padding-top: 186px; }
-  .specialists:after:last-of-type {
-    content: "";
-    display: block;
-    border-bottom: none;
-    padding-top: 186px; }
+    padding-top: 130px; }
+    @media screen and (max-width: 768px) {
+      .specialists:after {
+        border-bottom: none;
+        padding-top: 40px; } }
 
 .last_block:after {
   content: "";
   display: block;
-  border-bottom: none !important;
-  padding-top: 186px; }
+  border-bottom: none !important; }
 
 /*# sourceMappingURL=style.css.map */
