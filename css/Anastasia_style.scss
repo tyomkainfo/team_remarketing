@@ -3,7 +3,6 @@ $font-sub: 'Oswald', sans-serif;
 
 .specialists {
   padding-top: 90px;
-  padding-bottom: 186px;
   h3 {
     font-size: 30px;
     font-family: $font-main;
@@ -18,5 +17,26 @@ $font-sub: 'Oswald', sans-serif;
   h4 {
     font-size: 18px;
     font-family: $font-sub;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 35%;
+    border-bottom: 1px dashed black;
+    padding-top: 186px;
+  }
+  &:after:last-of-type {
+    content: "";
+    display: block;
+    border-bottom: none;
+    padding-top: 186px;
+  }
+}
+.last_block {
+  &:after{
+    content: "";
+    display: block;
+    border-bottom: none!important;
+    padding-top: 186px;
   }
 }
