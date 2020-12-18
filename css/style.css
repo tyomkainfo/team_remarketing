@@ -1,2 +1,45 @@
 @import url(bootstrap.css);
 @import url(bootstrap-theme.css);
+.registration {
+  padding-top: 91px; }
+  .registration .container h3 {
+    margin-bottom: 71px; }
+  .registration .container .form-horizontal input {
+    margin-bottom: 14px; }
+  .registration .container #myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%; }
+  .registration .container .qty {
+    width: 40px;
+    height: 25px;
+    text-align: center; }
+  .registration .container input.qtyplus {
+    width: 40px;
+    height: 40px;
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    color: #fff; }
+  .registration .container input.qtyminus {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #3e3e3e;
+    font-size: 18px; }
+  .registration .container input.qty {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #3e3e3e;
+    font-size: 18px; }
+  .registration .container .btn-default {
+    margin-bottom: 117px;
+    border: 3px solid #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 13px 59px 13px 58px;
+    background-image: none; }
+
+/*# sourceMappingURL=style.css.map */

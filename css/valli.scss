@@ -1,0 +1,58 @@
+
+
+.registration{
+  padding-top: 91px;
+  .container{
+    h3{
+      margin-bottom: 71px;
+    }
+    .form-horizontal{
+      input{
+        margin-bottom: 14px;
+      }
+    }
+    #myform {
+      text-align: center;
+      padding: 5px;
+      margin: 2%;
+    }
+    .qty {
+      width: 40px;
+      height: 25px;
+      text-align: center;
+
+    }
+    input.qtyplus {
+      width:40px;
+      height:40px;
+      background-color: #dbdbdb;
+      border: 1px solid #dbdbdb;
+      color: #fff;
+    }
+    input.qtyminus {
+      width:40px;
+      height:40px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      color: #3e3e3e;
+      font-size: 18px;
+    }
+    input.qty {
+      width:40px;
+      height:40px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      color: #3e3e3e;
+      font-size: 18px;
+    }
+
+    .btn-default{
+      margin-bottom: 117px;
+      border: 3px solid #000;
+      border-radius: 0;
+      background-color: #fff;
+      padding: 13px 59px 13px 58px;
+      background-image: none;
+    }
+  }
+}
