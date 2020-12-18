@@ -1,5 +1,6 @@
 @import url(bootstrap.css);
 @import url(bootstrap-theme.css);
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 .registration {
   padding-top: 91px;
   font-family: "Oswald", sans-serif; }
@@ -42,5 +43,21 @@
     background-color: #fff;
     padding: 13px 59px 13px 58px;
     background-image: none; }
+
+.specialists {
+  padding-top: 90px;
+  padding-bottom: 186px; }
+  .specialists h3 {
+    font-size: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 86px; }
+  .specialists img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 58px; }
+  .specialists h4 {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
