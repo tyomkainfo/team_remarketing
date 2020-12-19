@@ -1,7 +1,18 @@
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
 
 .program {
+  h3{
+    font-family:$font-main ;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+  }
   p {
-    color: darkred;
+    color: #000000;
+    font-family: $font-sub;
+    font-size:18px ;
   }
 
   .panel {
@@ -22,6 +33,7 @@
       color: #ffffff;
       text-decoration: none;
       font-size: 18px;
+      font-family: $font-sub;
       display: flex;
       align-items: center;
       text-transform: uppercase;
@@ -30,6 +42,7 @@
         font-size: 48px;
         font-weight: 700;
         margin-right: 44px;
+        font-family: $font-main;
       }
 
       &:hover,
@@ -52,17 +65,19 @@
   padding-top: 35px;
   padding-bottom: 0;
   p{
-    font-size: 24px;
+    font-size: 18px;
+    color: #000000;
   }
 
   .row {
     margin-bottom: 50px;
     padding-bottom: 0;
+    margin-left: 15px;
 
     &:nth-of-type(2) {
       margin-bottom: 35px;
     }
-
+  }
     .col-sm-3 {
       padding: 0;
 
@@ -82,13 +97,19 @@
       font-size: 40px;
       font-weight: bold;
       text-align: start;
+      font-family: $font-main;
+      color: #000000;
     }
     .col-sm-4{
       h6{
         font-size: 24px;
+        font-family:$font-sub ;
+        color: #000000;
       }
       p{
         font-size: 18px;
+        font-family:$font-sub ;
+        color: #000000;
       }
     }
 
@@ -96,4 +117,3 @@
       padding-top: 32px;
     }
   }
-}

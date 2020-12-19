@@ -1,69 +1,5 @@
 @import url(bootstrap.css);
 @import url(bootstrap-theme.css);
-.program p {
-  color: darkred; }
-.program .panel {
-  box-shadow: none;
-  border: none; }
-.program .panel-default > .panel-heading {
-  background-image: none;
-  color: #ffffff;
-  background-color: #000000;
-  border-color: #ffffff;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0; }
-  .program .panel-default > .panel-heading a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase; }
-    .program .panel-default > .panel-heading a span {
-      font-size: 48px;
-      font-weight: 700;
-      margin-right: 44px; }
-    .program .panel-default > .panel-heading a:hover, .program .panel-default > .panel-heading a:focus {
-      color: #ffffff;
-      text-decoration: none; }
-
-/*.panel-default > .panel-heading{
-  &:nth-of-type(2n){
-    background-color: red;
-  }
-}
-*/
-.panel-body {
-  padding-top: 35px;
-  padding-bottom: 0; }
-  .panel-body p {
-    font-size: 24px; }
-  .panel-body .row {
-    margin-bottom: 50px;
-    padding-bottom: 0; }
-    .panel-body .row:nth-of-type(2) {
-      margin-bottom: 35px; }
-    .panel-body .row .col-sm-3 {
-      padding: 0; }
-      .panel-body .row .col-sm-3 .foto-men {
-        width: 212px;
-        height: 212px; }
-        .panel-body .row .col-sm-3 .foto-men img {
-          display: block;
-          width: 100%;
-          height: 100%; }
-    .panel-body .row .col-sm-2 {
-      font-size: 40px;
-      font-weight: bold;
-      text-align: start; }
-    .panel-body .row .col-sm-4 h6 {
-      font-size: 24px; }
-    .panel-body .row .col-sm-4 p {
-      font-size: 18px; }
-    .panel-body .row .col-sm-2, .panel-body .row .col-sm-4 {
-      padding-top: 32px; }
-
-/*# sourceMappingURL=style.css.map */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 .registration {
   padding-top: 91px;
@@ -139,5 +75,86 @@
   content: "";
   display: block;
   border-bottom: none !important; }
+
+.program h3 {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px; }
+.program p {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px; }
+.program .panel {
+  box-shadow: none;
+  border: none; }
+.program .panel-default > .panel-heading {
+  background-image: none;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+  .program .panel-default > .panel-heading a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase; }
+    .program .panel-default > .panel-heading a span {
+      font-size: 48px;
+      font-weight: 700;
+      margin-right: 44px;
+      font-family: "Myriad Pro", sans-serif; }
+    .program .panel-default > .panel-heading a:hover, .program .panel-default > .panel-heading a:focus {
+      color: #ffffff;
+      text-decoration: none; }
+
+/*.panel-default > .panel-heading{
+  &:nth-of-type(2n){
+    background-color: red;
+  }
+}
+*/
+.panel-body {
+  padding-top: 35px;
+  padding-bottom: 0; }
+  .panel-body p {
+    font-size: 18px;
+    color: #000000; }
+  .panel-body .row {
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    margin-left: 15px; }
+    .panel-body .row:nth-of-type(2) {
+      margin-bottom: 35px; }
+  .panel-body .col-sm-3 {
+    padding: 0; }
+    .panel-body .col-sm-3 .foto-men {
+      width: 212px;
+      height: 212px; }
+      .panel-body .col-sm-3 .foto-men img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+  .panel-body .col-sm-2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: start;
+    font-family: "Myriad Pro", sans-serif;
+    color: #000000; }
+  .panel-body .col-sm-4 h6 {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #000000; }
+  .panel-body .col-sm-4 p {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    color: #000000; }
+  .panel-body .col-sm-2, .panel-body .col-sm-4 {
+    padding-top: 32px; }
 
 /*# sourceMappingURL=style.css.map */
