@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="add section &quot;program&quot;, evgeniya_style.scss(), image square">
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/792869c6c9f791552dc7b65ec814f1e4ba16e4f5/evgeniya_style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/792869c6c9f791552dc7b65ec814f1e4ba16e4f5/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/792869c6c9f791552dc7b65ec814f1e4ba16e4f5/yevhenii-style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/aa7083969fd33becb566d0e72333f66a8f390150/evgeniya_style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/yevhenii-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/yevhenii-style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/black_square_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/evgeniya_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/evgeniya_style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/evgeniya_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +25,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,12 +50,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scss/sassc.exe" />
+    <property name="last_opened_file_path" value="C:/Ruby26-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="" />
@@ -59,11 +78,47 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add section &quot;program&quot;, evgeniya_style.scss(), image square" />
+    <option name="LAST_COMMIT_MESSAGE" value="add section &quot;program&quot;, evgeniya_style.scss(), image square" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="174" width="731" height="353" key="CommitChangelistDialog2" timestamp="1608337669178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="299" y="174" width="731" height="353" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608337669178" />
+    <state x="91" y="108" width="1153" height="510" key="DiffContextDialog" timestamp="1608336488329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="91" y="108" width="1153" height="510" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608336488329" />
+    <state x="315" y="173" key="EditFileWatcherDialog" timestamp="1608336924300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="315" y="173" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1608336924300" />
+    <state x="456" y="132" key="FileChooserDialogImpl" timestamp="1608336922052">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="456" y="132" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608336922052" />
+    <state x="179" y="19" key="SettingsEditor" timestamp="1608336929476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="179" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608336929476" />
+    <state x="440" y="87" key="VCS.ChangeListViewerDialog" timestamp="1608336459522">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="87" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1608336459522" />
+    <state x="351" y="246" key="git4idea.ui.GitUnstashDialog" timestamp="1608336801866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="351" y="246" key="git4idea.ui.GitUnstashDialog/0.0.1366.728@0.0.1366.728" timestamp="1608336801866" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
