@@ -257,12 +257,14 @@
 
     </div>
 </section>
+
 <!--Valentina-->
 <section class="registration">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-md-7 col-sm-12">
                 <h3 class="text-uppercase">регистрация:</h3>
+
                 <form class="form-horizontal">
                     <div class="form-group">
                         <div class="col-sm-12">
@@ -279,21 +281,26 @@
                         </div>
                     </div>
                 </form>
+
                 <div class="form-group">
-                    <div class="row">
-                        <div class="col-sm-4"><p>Кол-во билетов</p></div>
-                        <form class="col-sm-3" id='myform' method='POST' action='#'>
-                            <input type='button' value='-' class='qtyminus' field='quantity'/>
-                            <input type='text' name='quantity' value='0' class='qty'/>
-                            <input type='button' value='+' class='qtyplus' field='quantity'/>
-                        </form>
-                        <div class="col-sm-4"><p>Промо код</p></div>
+                    <div class="row purchase">
+                        <div class="group d-flex">
+                            <div class="col-sm-4 col-xs-6"><p class="amount">Кол-во билетов</p></div>
+                            <form class="col-sm-3 col-xs-6 d-flex" id='myform' method='POST' action='#'>
+                                <input type='button' value='-' class='qtyminus' field='quantity'/>
+                                <input type='text' name='quantity' value='0' class='qty'/>
+                                <input type='button' value='+' class='qtyplus' field='quantity'/>
+                            </form>
+                            <div class="col-sm-4 col-xs-6">
+                                <input type="text" class="promo-code" placeholder="Промо код">
+                            </div>
+                        </div>
                         <div class="col-sm-7">
                             <button type="submit" class="btn btn-default text-uppercase">оформить</button>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
     </div>
