@@ -64,3 +64,80 @@
       padding-top: 32px; }
 
 /*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+.registration {
+  padding-top: 91px;
+  font-family: "Oswald", sans-serif; }
+  .registration .container h3 {
+    margin-bottom: 71px; }
+  .registration .container .form-horizontal input {
+    margin-bottom: 14px; }
+  .registration .container #myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%; }
+  .registration .container .qty {
+    width: 40px;
+    height: 25px;
+    text-align: center; }
+  .registration .container input.qtyplus {
+    width: 40px;
+    height: 40px;
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    color: #fff; }
+  .registration .container input.qtyminus {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #3e3e3e;
+    font-size: 18px; }
+  .registration .container input.qty {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #3e3e3e;
+    font-size: 18px; }
+  .registration .container .btn-default {
+    margin-bottom: 117px;
+    border: 3px solid #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 13px 59px 13px 58px;
+    background-image: none; }
+
+.specialists {
+  padding-top: 90px; }
+  .specialists h3 {
+    font-size: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 86px; }
+  .specialists img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 58px; }
+  .specialists h4 {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 56px;
+    color: black; }
+  .specialists:after {
+    content: "";
+    display: block;
+    width: 40%;
+    border-bottom: 1px dashed black;
+    padding-top: 130px; }
+    @media screen and (max-width: 768px) {
+      .specialists:after {
+        border-bottom: none;
+        padding-top: 40px; } }
+
+.last_block:after {
+  content: "";
+  display: block;
+  border-bottom: none !important; }
+
+/*# sourceMappingURL=style.css.map */

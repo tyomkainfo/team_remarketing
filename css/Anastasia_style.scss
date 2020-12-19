@@ -1,0 +1,46 @@
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.specialists {
+  padding-top: 90px;
+  h3 {
+    font-size: 30px;
+    font-family: $font-main;
+    text-transform: uppercase;
+    margin-bottom: 86px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 58px;
+  }
+  h4 {
+    font-size: 18px;
+    font-family: $font-sub;
+    margin-bottom: 56px;
+    color: black;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 40%;
+    border-bottom: 1px dashed black;
+    padding-top: 130px;
+    @include max-screen (768px) {
+      border-bottom: none;
+      padding-top: 40px;
+    }
+  }
+}
+.last_block {
+  &:after{
+    content: "";
+    display: block;
+    border-bottom: none!important;
+  }
+}
