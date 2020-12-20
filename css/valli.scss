@@ -1,59 +1,130 @@
 $font-sub: 'Oswald', sans-serif;
 
-.registration{
+.d-flex {
+  display: flex;
+
+}
+
+.registration {
   padding-top: 91px;
   font-family: $font-sub;
-  .container{
-    h3{
+
+  .container {
+    h3 {
+      font-family: "Myriad Pro", sans-serif;
       margin-bottom: 71px;
+      font-weight: 700;
+      font-size: 30px;
     }
-    .form-horizontal{
-      input{
-        margin-bottom: 14px;
+
+    .row {
+      .form-horizontal {
+        input {
+          margin-bottom: 15px;
+        }
+
+        .form-control {
+          border-radius: 0;
+          padding: 13px 0 10px 19px;
+          font-size: 18px;
+          color: #3e3e3e;
+          font-weight: 300;
+        }
+
+        .form-group {
+          margin-bottom: 1px;
+        }
       }
-    }
-    #myform {
-      text-align: center;
-      padding: 5px;
-      margin: 2%;
-    }
-    .qty {
-      width: 40px;
-      height: 25px;
-      text-align: center;
 
-    }
-    input.qtyplus {
-      width:40px;
-      height:40px;
-      background-color: #dbdbdb;
-      border: 1px solid #dbdbdb;
-      color: #fff;
-    }
-    input.qtyminus {
-      width:40px;
-      height:40px;
-      background-color: #fff;
-      border: 1px solid #dbdbdb;
-      color: #3e3e3e;
-      font-size: 18px;
-    }
-    input.qty {
-      width:40px;
-      height:40px;
-      background-color: #fff;
-      border: 1px solid #dbdbdb;
-      color: #3e3e3e;
-      font-size: 18px;
-    }
+      .purchase {
+        height: 40px;
 
-    .btn-default{
-      margin-bottom: 117px;
-      border: 3px solid #000;
-      border-radius: 0;
-      background-color: #fff;
-      padding: 13px 59px 13px 58px;
-      background-image: none;
+        .group.d-flex {
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .col-md-3.col-sm-6.d-flex {
+            justify-content: flex-start;
+          }
+
+          p {
+            padding-bottom: 13px;
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            color: #3e3e3e;
+            font-weight: 400;
+            padding-left: 18px;
+            border-bottom: 1px solid #dbdbdb;
+          }
+
+          .promo-code {
+            font-size: 18px;
+            color: #000;
+            font-weight: 400;
+            border-radius: 0;
+            border: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            margin-bottom: 15px;
+            padding: 0 0 11px 0;
+            margin-left: 0;
+            outline: none;
+          }
+
+          #myform {
+            text-align: center;
+            padding: 0;
+            margin: 0 0 15px 0;
+          }
+
+          .qty {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            color: #3e3e3e;
+            outline: none;
+          }
+
+          input.qtyplus {
+            width: 40px;
+            height: 40px;
+            background-color: #dbdbdb;
+            border: 1px solid #dbdbdb;
+            font-size: 25px;
+            color: #fff;
+            font-weight: 300;
+            outline: none;
+            font-family: 'DejaVu Sans Light', sans-serif;
+          }
+
+          input.qtyminus {
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            color: #3e3e3e;
+            font-size: 25px;
+            font-weight: 300;
+            outline: none;
+            font-family: 'DejaVu Sans Light', sans-serif;
+          }
+        }
+
+        .btn-default {
+          margin-bottom: 117px;
+          border: 3px solid #000;
+          border-radius: 0;
+          background-color: #fff;
+          padding: 11px 65px 12px 66px;
+          background-image: none;
+          font-size: 18px;
+          color: #000;
+          letter-spacing: 2px;
+          margin-top: 53px;
+        }
+      }
     }
   }
 }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/792869c6c9f791552dc7b65ec814f1e4ba16e4f5/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/792869c6c9f791552dc7b65ec814f1e4ba16e4f5/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/aa7083969fd33becb566d0e72333f66a8f390150/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/aa7083969fd33becb566d0e72333f66a8f390150/evgeniya_style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/evgeniya_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/evgeniya_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -57,7 +59,6 @@
       <option name="presentableId" value="Default" />
       <updated>1608215469366</updated>
       <workItem from="1608215470668" duration="477000" />
-      <workItem from="1608481239519" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="add section &quot;program&quot;, evgeniya_style.scss(), image square">
       <created>1608337947398</created>
@@ -66,18 +67,11 @@
       <option name="project" value="LOCAL" />
       <updated>1608337947398</updated>
     </task>
-    <task id="LOCAL-00002" summary="&#10;added changes to section &quot;program&quot;(index) and changes style">
-      <created>1608341187616</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608341187616</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -92,15 +86,7 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;added changes to section &quot;program&quot;(index) and changes style" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;added changes to section &quot;program&quot;(index) and changes style" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1608341183080">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608341183080" />
     <state x="315" y="173" key="EditFileWatcherDialog" timestamp="1608339484352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -113,14 +99,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="179" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608339489995" />
-    <state x="268" y="116" key="Vcs.Push.Dialog.v2" timestamp="1608341193860">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="268" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608341193860" />
-    <state x="385" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1608481282117">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="385" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608481282117" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
