@@ -1,0 +1,55 @@
+.remark {
+  background-color: black;
+  border-top: 4px solid white; }
+  .remark .row {
+    padding-top: 90px;
+    padding-bottom: 140px; }
+    .remark .row h3 {
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 36px; }
+    .remark .row .Alex_bottle_1 {
+      margin-left: 40px;
+      margin-top: 20px; }
+    .remark .row .text {
+      display: inline-block;
+      margin-top: 80px;
+      text-decoration: none;
+      text-align: left;
+      line-height: 20px;
+      color: white;
+      font-size: 18px;
+      font-family: "Oswald", sans-serif; }
+      .remark .row .text span {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+
+.remark_2 {
+  background-color: black;
+  border-top: 4px solid white; }
+  .remark_2 .row {
+    padding-top: 80px;
+    padding-bottom: 210px; }
+    .remark_2 .row h3 {
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 36px; }
+    .remark_2 .row p {
+      display: inline-block;
+      margin-top: 80px;
+      text-decoration: none;
+      text-align: left;
+      line-height: 20px;
+      color: white;
+      font-size: 18px;
+      font-family: "Oswald", sans-serif; }
+    .remark_2 .row .Alex_bottle_2 {
+      margin-left: 40px;
+      margin-top: 20px; }
+
+/*# sourceMappingURL=Alex_style.css.map */

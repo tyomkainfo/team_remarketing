@@ -1,0 +1,81 @@
+$remark_bg: black;
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
+
+.remark {
+  background-color: $remark_bg;
+  border-top: 4px solid white;
+
+  .row {
+    padding-top: 90px;
+    padding-bottom: 140px;
+
+
+    h3 {
+      font-family: $font-main;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 36px;
+    }
+
+    .Alex_bottle_1 {
+margin-left: 40px;
+margin-top: 20px;
+
+    }
+
+    .text {
+      display: inline-block;
+      margin-top: 80px;
+      text-decoration: none;
+      text-align: left;
+      line-height: 20px;
+      color: white;
+      font-size: 18px;
+      font-family: $font-sub;
+
+      span {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.remark_2 {
+  background-color: $remark_bg;
+  border-top: 4px solid white;
+
+  .row {
+    padding-top: 80px;
+    padding-bottom: 210px;
+
+    h3 {
+      font-family: $font-main;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 36px;
+    }
+
+    p {
+      display: inline-block;
+      margin-top: 80px;
+      text-decoration: none;
+      text-align: left;
+      line-height: 20px;
+      color: white;
+      font-size: 18px;
+      font-family: $font-sub;
+    }
+
+    .Alex_bottle_2 {
+margin-left: 40px;
+      margin-top: 20px;
+
+    }
+
+  }
+}
