@@ -18,6 +18,9 @@ $font-sub: 'Oswald', sans-serif;
   .panel {
     box-shadow: none;
     border: none;
+    &:nth-of-type(2n).panel-default > .panel-heading{
+      background-color: #c4c4c4;
+    }
   }
 
   .panel-default > .panel-heading {
@@ -27,7 +30,7 @@ $font-sub: 'Oswald', sans-serif;
     border-color: #ffffff;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-
+    }
 
     a {
       color: #ffffff;
@@ -52,15 +55,6 @@ $font-sub: 'Oswald', sans-serif;
       }
     }
   }
-
-}
-
-/*.panel-default > .panel-heading{
-  &:nth-of-type(2n){
-    background-color: red;
-  }
-}
-*/
 .panel-body {
   padding-top: 35px;
   padding-bottom: 0;
