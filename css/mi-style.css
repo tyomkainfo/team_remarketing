@@ -1,0 +1,58 @@
+.plan h4 {
+  font-size: 24px;
+  font-weight: 400; }
+.plan p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 !important; }
+.plan .row {
+  margin-bottom: 55px;
+  position: relative;
+  background-color: transparent;
+  z-index: 3; }
+  @media only screen and (max-width: 767px) {
+    .plan .row {
+      box-shadow: 0 0 0 30px black; } }
+.plan .time {
+  position: relative; }
+  .plan .time p {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 43px; }
+    @media only screen and (max-width: 767px) {
+      .plan .time p {
+        position: relative;
+        top: 15px;
+        font-size: 28px; } }
+.plan .line {
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  top: 60px;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .plan .line {
+      display: none; } }
+.plan .col-xs-12 {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.head_of_plan {
+  font-family: "Oswald", sans-serif; }
+  .head_of_plan h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400; }
+  .head_of_plan p {
+    margin: 0 !important;
+    font-size: 16px;
+    font-weight: 300; }
+  .head_of_plan h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 !important; }
+
+/*# sourceMappingURL=mi-style.css.map */
