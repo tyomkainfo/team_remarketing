@@ -1,0 +1,17 @@
+.partners {
+  display: flex;
+  align-items: center;
+  width: 100%; }
+  .partners h3 {
+    font-size: 30px;
+    font-family: 'Myriad Pro', sans-serif;
+    text-transform: uppercase; }
+  .partners h4 {
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif; }
+  @media screen and (max-width: 768px) {
+    .partners .col-md-3.col-sm-6 {
+      text-align: center; } }
+  @media screen and (max-width: 375px) {
+    .partners .col-md-3.col-sm-6 {
+      text-align: center; } }
