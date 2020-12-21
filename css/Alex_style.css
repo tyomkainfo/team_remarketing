@@ -5,7 +5,7 @@
     padding-top: 90px;
     padding-bottom: 140px; }
     .remark .row h3 {
-      font-family: "Myriad Pro", sans-serif;
+      font-family: 'Myriad Pro', sans-serif;
       font-size: 30px;
       text-transform: uppercase;
       color: white;
@@ -21,7 +21,7 @@
       line-height: 20px;
       color: white;
       font-size: 18px;
-      font-family: "Oswald", sans-serif; }
+      font-family: 'Oswald', sans-serif; }
       .remark .row .text span {
         display: inline-block;
         margin-top: 20px;
@@ -34,7 +34,7 @@
     padding-top: 80px;
     padding-bottom: 210px; }
     .remark_2 .row h3 {
-      font-family: "Myriad Pro", sans-serif;
+      font-family: 'Myriad Pro', sans-serif;
       font-size: 30px;
       text-transform: uppercase;
       color: white;
@@ -47,9 +47,7 @@
       line-height: 20px;
       color: white;
       font-size: 18px;
-      font-family: "Oswald", sans-serif; }
+      font-family: 'Oswald', sans-serif; }
     .remark_2 .row .Alex_bottle_2 {
       margin-left: 40px;
       margin-top: 20px; }
-
-/*# sourceMappingURL=Alex_style.css.map */
