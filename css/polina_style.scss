@@ -1,0 +1,39 @@
+$remark_bg: black;
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
+
+.d-flex {
+  display: flex;
+
+}
+
+.contacts {
+  background-color: $remark_bg;
+  font-family: $font-sub;
+
+  .container {
+    padding-top: 98px;
+    padding-bottom: 35px;
+
+    h3 {
+      font-family: "Myriad Pro", sans-serif;
+      margin-bottom: 71px;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .text {
+      p {
+        display: inline-block;
+        margin-bottom: 115px;
+        text-align: left;
+        color: white;
+        font-size: 24px;
+        font-family: $font-sub;
+
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

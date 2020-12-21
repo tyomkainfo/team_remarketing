@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="add katerina_style">
+      <change afterPath="$PROJECT_DIR$/css/polina_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/polina_style.scss" afterDir="false" />
     <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/evgeniya_style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/valli.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/e73ae577342f171259820bbaadcf3f5e4c2e6afc/valli.scssc" afterDir="false" />
@@ -47,6 +51,12 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,6 +75,7 @@
       <workItem from="1608236525272" duration="5056000" />
       <workItem from="1608323580587" duration="3798000" />
       <workItem from="1608390750228" duration="12015000" />
+      <workItem from="1608583599677" duration="4239000" />
       <workItem from="1608585268891" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="Add new section form plus css">
@@ -122,6 +133,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="corrected mobile version - added class col-xs-12 to last button" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#File_Watchers" timestamp="1608583749322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#File_Watchers/0.0.1366.728@0.0.1366.728" timestamp="1608583749322" />
+    <state x="617" y="28" key="CommitChangelistDialog2" timestamp="1608566207173">
+      <screen x="0" y="0" width="1366" height="728" />
     <state x="744" y="66" key="CommitChangelistDialog2" timestamp="1608585170455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,9 +160,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608324862405" />
+    <state x="328" y="12" key="SettingsEditor" timestamp="1608587881145">
+      <screen x="0" y="0" width="1366" height="728" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1608585239474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="328" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608587881145" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608389571525" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608325975948">
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608585239474" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608585181141">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -159,9 +181,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="606" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608389802498" />
+    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608587933455">
+      <screen x="0" y="0" width="1366" height="728" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608586599160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608587933455" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608403821999" />
     <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608548129325" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608586599160" />
     <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1608585358358">
