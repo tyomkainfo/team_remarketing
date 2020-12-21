@@ -19,12 +19,13 @@
     <div class="container">
         <h3>Headliners:</h3>
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6" data-toggle="modal" data-target="#Modal-Headliner-Gladky">
                 <img src="images/yurii_gladkiy_03.jpg" alt="person_photo">
                 <h4>Юрий Гладкий</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/Kosta_Shnaider_05.jpg" alt="person_photo">
+                <img src="images/Kosta_Shnaider_05.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Headliner-Shnaider">
                 <h4>Коста Шнайдер</h4>
             </div>
         </div>
@@ -35,15 +36,18 @@
         <h3>Strategic marketing:</h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Strategic-Kitsenko">
                 <h4>Александр Киценко</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Strategic-Galika">
                 <h4>Владимир Галика</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Strategic-Bortnik">
                 <h4>Вадим Бортник</h4>
             </div>
         </div>
@@ -54,19 +58,23 @@
         <h3>Advertising, PR & Design:</h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Advertising-Pushkin">
                 <h4>Виталий Пушкин</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Advertising-Burtsev">
                 <h4>Макс Бурцев</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Advertising-Gritsky">
                 <h4>Дмитрий Грицкий</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Advertising-Kosyanenko">
                 <h4>Ростислав Косьяненко</h4>
             </div>
         </div>
@@ -77,24 +85,411 @@
         <h3>Digital:</h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Digital-Baidachenko">
                 <h4>Байдаченко</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Digital-Burach">
                 <h4>Иван Бурач</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Digital-Mokrenko">
                 <h4>Татьяна Мокренко</h4>
             </div>
             <div class="col-md-3 col-sm-6">
-                <img src="images/person_photo_03.jpg" alt="person_photo">
+                <img src="images/person_photo_03.jpg" alt="person_photo" data-toggle="modal"
+                     data-target="#Modal-Digital-Shigaeva">
                 <h4>Даша Шигаева</h4>
             </div>
         </div>
     </div>
 </section>
+
+<!--Theese divs are pop-up windows and don't show up initially-->
+<section>
+    <div class="modal fade" id="Modal-Headliner-Gladky" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Имя Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Headliner-Shnaider" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Strategic-Kitsenko" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Какой-то крутой чувак</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Strategic-Galika" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Strategic-Bortnik" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Advertising-Pushkin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Advertising-Burtsev" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Advertising-Gritsky" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Advertising-Kosyanenko" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Digital-Baidachenko" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Digital-Burach" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Digital-Mokrenko" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal-Digital-Shigaeva" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="padding-95">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5 hidden-xs col-md-offset-1">
+                                <img src="images/person_photo_03.jpg" alt="person_photo">
+                            </div>
+                            <div class="col-md-5">
+                                <h4 class="text-uppercase modal-name">Другое Имя Другая Фамилия</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                                    aperiam ducimus ex itaque magni nobis nulla obcaecati odio quae, quasi quia quis
+                                    ratione
+                                    saepe sed sit tempora unde voluptates. Fuga.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur
+                                    atque deleniti dicta doloremque eius enim excepturi, inventore ipsam labore, magni
+                                    optio
+                                    quae quaerat quas qui, quis quisquam recusandae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of pop-up windows-->
+
 
 <!--Evgeniya-->
 <section class="program">
