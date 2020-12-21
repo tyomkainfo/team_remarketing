@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="add katerina_style">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/Anastasia_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/Anastasia_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/evgeniya_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/valli.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/valli.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Anastasia_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/Anastasia_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -20,25 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="955" column="43" selection-start-line="955" selection-start-column="43" selection-end-line="955" selection-end-column="43" />
+            <state relative-caret-position="275">
+              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding>
-                <element signature="e#8933#8940#1" expanded="true" />
-                <element signature="e#10701#10708#1" expanded="true" />
-                <element signature="e#12483#12490#1" expanded="true" />
-                <element signature="e#14259#14266#1" expanded="true" />
-                <element signature="e#16040#16047#1" expanded="true" />
-                <element signature="e#17823#17830#1" expanded="true" />
-                <element signature="e#19606#19613#1" expanded="true" />
-                <element signature="e#21389#21396#1" expanded="true" />
-                <element signature="e#23175#23182#1" expanded="true" />
+                <element signature="e#10707#10714#1" expanded="true" />
+                <element signature="e#12475#12482#1" expanded="true" />
+                <element signature="e#14257#14264#1" expanded="true" />
+                <element signature="e#16033#16040#1" expanded="true" />
+                <element signature="e#17814#17821#1" expanded="true" />
+                <element signature="e#19597#19604#1" expanded="true" />
+                <element signature="e#21380#21387#1" expanded="true" />
+                <element signature="e#23163#23170#1" expanded="true" />
                 <element signature="e#24958#24965#1" expanded="true" />
-                <element signature="e#26736#26743#1" expanded="true" />
-                <element signature="e#28516#28523#1" expanded="true" />
-                <element signature="e#30296#30303#1" expanded="true" />
+                <element signature="e#26741#26748#1" expanded="true" />
+                <element signature="e#28519#28526#1" expanded="true" />
+                <element signature="e#30299#30306#1" expanded="true" />
+                <element signature="e#32079#32086#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Anastasia_style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="1925">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -89,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/Anastasia_style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -191,7 +188,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4066000" />
+    <option name="totallyTimeSpent" value="4339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -309,32 +306,32 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/Anastasia_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="955" column="43" selection-start-line="955" selection-start-column="43" selection-end-line="955" selection-end-column="43" />
-          <folding>
-            <element signature="e#8933#8940#1" expanded="true" />
-            <element signature="e#10701#10708#1" expanded="true" />
-            <element signature="e#12483#12490#1" expanded="true" />
-            <element signature="e#14259#14266#1" expanded="true" />
-            <element signature="e#16040#16047#1" expanded="true" />
-            <element signature="e#17823#17830#1" expanded="true" />
-            <element signature="e#19606#19613#1" expanded="true" />
-            <element signature="e#21389#21396#1" expanded="true" />
-            <element signature="e#23175#23182#1" expanded="true" />
-            <element signature="e#24958#24965#1" expanded="true" />
-            <element signature="e#26736#26743#1" expanded="true" />
-            <element signature="e#28516#28523#1" expanded="true" />
-            <element signature="e#30296#30303#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="1925">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Anastasia_style.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="275">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="e#10707#10714#1" expanded="true" />
+            <element signature="e#12475#12482#1" expanded="true" />
+            <element signature="e#14257#14264#1" expanded="true" />
+            <element signature="e#16033#16040#1" expanded="true" />
+            <element signature="e#17814#17821#1" expanded="true" />
+            <element signature="e#19597#19604#1" expanded="true" />
+            <element signature="e#21380#21387#1" expanded="true" />
+            <element signature="e#23163#23170#1" expanded="true" />
+            <element signature="e#24958#24965#1" expanded="true" />
+            <element signature="e#26741#26748#1" expanded="true" />
+            <element signature="e#28519#28526#1" expanded="true" />
+            <element signature="e#30299#30306#1" expanded="true" />
+            <element signature="e#32079#32086#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
