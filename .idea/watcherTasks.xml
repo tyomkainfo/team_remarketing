@@ -3,6 +3,7 @@
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
       <option name="arguments" value="--precision 10 $FileName$ $FileNameWithoutExtension$.css" />
+      <option name="arguments" value="--precision 10 $FileName$ $FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
@@ -37,7 +38,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="D:/Program Files/Ruby27-x64/bin/sass" />
+      <option name="program" value="C:/Ruby24/bin/scss" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
