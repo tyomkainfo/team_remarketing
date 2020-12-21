@@ -4,65 +4,77 @@ $font-sub: 'Oswald', sans-serif;
     @content;
   }
 }
-
+header {
+  font-size: 0;
+}
 .navbar {
   border: none;
   margin-bottom: 0;
-  min-height: 106px;
   background-color: #000000;
+  border-radius: 0;
   .container {
-    ul {
-      padding: 30px 0;
-      text-align: center;
-      li {
+    .row {
+      .navbar-header {
+        padding: 18px 0;
         a {
-          font-family: $font-sub;
-          font-size: 18px;
-          color: #ffffff;
+          @include max-screen(768px) {
+            padding: 0 0 0 15px;
+          }
+          img {
+            @include max-screen(768px) {
+              width: 50px;
+            }
+          }
+        }
+        .navbar-toggle {
+          margin-right: 0;
+          border: none;
           &:hover {
-            text-decoration: line-through;
+            background-color: black;
+          }
+          .icon-bar {
+            background-color: white;
+          }
+        }
+        .navbar-brand {
+          padding: 0;
+          @include max-screen(768px) {
+            padding: 9px 10px;
+          }
+        }
+        .collapse {
+          padding: 12px 0;
+        }
+      }
+    }
+      ul {
+        width: 100%;
+        text-align: center;
+        li {
+          a {
+            font-family: $font-sub;
+            font-size: 18px;
             color: #ffffff;
+            &:hover {
+              text-decoration: line-through;
+              color: #ffffff;
+            }
           }
         }
       }
     }
   }
-  .navbar-header {
-    a {
-      img {
-        width: 100%;
-        @include max-screen(768px) {
-          width: 50%;
-        }
-      }
-    }
-    .navbar-toggle {
-      margin-right: 0;
-      border: none;
-      &:hover {
-        background-color: black;
-      }
-      .icon-bar {
-        background-color: white;
-      }
-
-    }
-    .navbar-brand {
-      padding: 18px 0;
-      @include max-screen(768px) {
-        padding: 9px 10px;
-      }
-    }
-    .collapse {
-      padding: 12px 0;
-    }
-  }
-}
-
 .navbar-default {
   background-image: none;
 }
-
+.navbar-nav {
+  margin: 0;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
 #back-top {
   position: fixed;
   bottom: 5%;

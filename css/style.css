@@ -440,14 +440,52 @@
   margin-top: 20px;
 }
 
+header {
+  font-size: 0;
+}
+
 .navbar {
   border: none;
   margin-bottom: 0;
-  min-height: 106px;
   background-color: #000000;
+  border-radius: 0;
+}
+.navbar .container .row .navbar-header {
+  padding: 18px 0;
+}
+@media screen and (max-width: 768px) {
+  .navbar .container .row .navbar-header a {
+    padding: 0 0 0 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar .container .row .navbar-header a img {
+    width: 50px;
+  }
+}
+.navbar .container .row .navbar-header .navbar-toggle {
+  margin-right: 0;
+  border: none;
+}
+.navbar .container .row .navbar-header .navbar-toggle:hover {
+  background-color: black;
+}
+.navbar .container .row .navbar-header .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar .container .row .navbar-header .navbar-brand {
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .navbar .container .row .navbar-header .navbar-brand {
+    padding: 9px 10px;
+  }
+}
+.navbar .container .row .navbar-header .collapse {
+  padding: 12px 0;
 }
 .navbar .container ul {
-  padding: 30px 0;
+  width: 100%;
   text-align: center;
 }
 .navbar .container ul li a {
@@ -459,38 +497,19 @@
   text-decoration: line-through;
   color: #ffffff;
 }
-.navbar .navbar-header a img {
-  width: 100%;
-}
-@media screen and (max-width: 768px) {
-  .navbar .navbar-header a img {
-    width: 50%;
-  }
-}
-.navbar .navbar-header .navbar-toggle {
-  margin-right: 0;
-  border: none;
-}
-.navbar .navbar-header .navbar-toggle:hover {
-  background-color: black;
-}
-.navbar .navbar-header .navbar-toggle .icon-bar {
-  background-color: white;
-}
-.navbar .navbar-header .navbar-brand {
-  padding: 18px 0;
-}
-@media screen and (max-width: 768px) {
-  .navbar .navbar-header .navbar-brand {
-    padding: 9px 10px;
-  }
-}
-.navbar .navbar-header .collapse {
-  padding: 12px 0;
-}
 
 .navbar-default {
   background-image: none;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 #back-top {
