@@ -1,0 +1,31 @@
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  h3{
+    font-size: 30px;
+    font-family: $font-main;
+    text-transform: uppercase;
+  }
+  h4{
+    font-size: 14px;
+    font-family: $font-sub;
+  }
+  .col-md-3.col-sm-6 {
+    @include max-screen(768px) {
+      text-align: center;
+    }
+    @include max-screen(375px) {
+      text-align: center;
+    }
+  }
+}

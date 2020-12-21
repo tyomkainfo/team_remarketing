@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="">
+    <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="add kat_style">
+      <change afterPath="$PROJECT_DIR$/css/kat_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -37,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="C:/scss/scss/sassc.exe" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,7 +59,8 @@
       <workItem from="1608236525272" duration="5056000" />
       <workItem from="1608323580587" duration="3798000" />
       <workItem from="1608390750228" duration="12015000" />
-      <workItem from="1608549127845" duration="1385000" />
+      <workItem from="1608549127845" duration="1750000" />
+      <workItem from="1608554072493" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="Add new section form plus css">
       <created>1608324947675</created>
@@ -94,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608548489298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add img partners">
+      <created>1608553504316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608553504316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add kat_style">
+      <created>1608555146805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608555146805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,21 +136,29 @@
     <MESSAGE value="add link font-family" />
     <MESSAGE value="add section partners" />
     <MESSAGE value="add katerina_style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add katerina_style" />
+    <MESSAGE value="add img partners" />
+    <MESSAGE value="add kat_style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kat_style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="0" key="CommitChangelistDialog2" timestamp="1608553446327">
+    <state x="412" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608556718667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="411" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608553446327" />
+    <state x="412" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608556718667" />
+    <state x="411" y="0" key="CommitChangelistDialog2" timestamp="1608556640690">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="411" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608556640690" />
     <state x="577" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325920677" />
-    <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1608389564579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="423" y="209" key="EditFileWatcherDialog" timestamp="1608554850930">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="423" y="209" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1608554850930" />
     <state x="594" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608389564579" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1608389563429">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1608554838446">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608554838446" />
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608389563429" />
     <state x="184" y="86" key="MergeDialog" timestamp="1608324862374">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -143,28 +168,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608324862405" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1608389571525">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="328" y="19" key="SettingsEditor" timestamp="1608554852825">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="328" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608554852825" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608389571525" />
     <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608548209721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608548209721" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325975948" />
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1608551792574">
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1608554095061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608551792574" />
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608554095061" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608390751416" />
     <state x="606" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608389802498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="606" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608389802498" />
-    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608551896269">
+    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608556791217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608551896269" />
+    <state x="547" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608556791217" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608403821999" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
