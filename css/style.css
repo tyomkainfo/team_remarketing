@@ -503,6 +503,14 @@ header {
   border-top: solid 3px #ffffff;
   padding: 75px 15px 54px;
   background: #000000; }
+  .price:after {
+    content: "";
+    display: block;
+    width: 40%;
+    border-bottom: 1px dashed white; }
+    @media screen and (max-width: 768px) {
+      .price:after {
+        border-bottom: none; } }
   .price .container .row h3 {
     text-transform: uppercase;
     color: #ffffff;
@@ -512,6 +520,10 @@ header {
   .price .container .row .wrapper-img-price {
     width: 137px;
     height: 423px; }
+    @media screen and (max-width: 768px) {
+      .price .container .row .wrapper-img-price {
+        margin-left: 100px;
+        margin-top: 20px; } }
     .price .container .row .wrapper-img-price img {
       width: 100%; }
   .price .container .row .wrapper-price {

@@ -56,7 +56,7 @@ header {
             font-family: $font-sub;
             font-size: 18px;
             color: #ffffff;
-            @include max-screen(1024px) {
+            @include max-screen (1024px) {
               font-size: 15px;
             }
             &:hover {
@@ -108,6 +108,15 @@ header {
   border-top: solid 3px #ffffff;
   padding: 75px 15px 54px;
   background: #000000;
+  &:after {
+    content: "";
+    display: block;
+    width: 40%;
+    border-bottom: 1px dashed white;
+    @include max-screen (768px) {
+      border-bottom: none;
+    }
+  }
   .container {
     .row {
       h3 {
@@ -120,6 +129,10 @@ header {
       .wrapper-img-price {
         width: 137px;
         height: 423px;
+        @include max-screen(768px) {
+          margin-left: 100px;
+          margin-top: 20px;
+        }
         img {
           width: 100%;
         }
