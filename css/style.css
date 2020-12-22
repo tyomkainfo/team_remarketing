@@ -294,9 +294,11 @@
       text-align: center; } }
 
 .plan h4 {
+  font-family: "Oswald", sans-serif;
   font-size: 24px;
   font-weight: 400; }
 .plan p {
+  font-family: "Myriad Pro", sans-serif;
   font-size: 18px;
   font-weight: 300;
   margin: 0 !important; }

@@ -4,11 +4,13 @@ $font-sub: 'Oswald', sans-serif;
 
 .plan {
   h4 {
+    font-family: $font-sub;
     font-size: 24px;
     font-weight: 400;
   }
 
   p {
+    font-family: $font-main;
     font-size: 18px;
     font-weight: 300;
     margin: 0 !important;
@@ -78,6 +80,10 @@ $font-sub: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0 !important;
+  }
+
+  h6 {
+
   }
 }
 
