@@ -131,6 +131,11 @@
     background: white;
     font-family: "Oswald", sans-serif;
     transition-duration: 0.2s; }
+  .main-banner .row .partners-main {
+    text-align: center; }
+  .main-banner h5 {
+    color: white;
+    line-height: 10px; }
 
 .specialists {
   padding-top: 90px; }
