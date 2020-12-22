@@ -459,7 +459,7 @@ header {
       color: #ffffff; }
       @media screen and (max-width: 1024px) {
         .navbar .container ul li a {
-          font-size: 16px; } }
+          font-size: 15px; } }
       .navbar .container ul li a:hover {
         text-decoration: line-through;
         color: #ffffff; }
