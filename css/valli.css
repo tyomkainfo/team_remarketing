@@ -1,3 +1,93 @@
+.d-flex {
+  display: flex; }
 
+.registration {
+  padding-top: 91px;
+  font-family: "Oswald", sans-serif; }
+  .registration .container h3 {
+    font-family: "Myriad Pro", sans-serif;
+    margin-bottom: 71px;
+    font-weight: 700;
+    font-size: 30px; }
+  .registration .container .row .form-horizontal input {
+    margin-bottom: 15px; }
+  .registration .container .row .form-horizontal .form-control {
+    border-radius: 0;
+    padding: 13px 0 10px 19px;
+    font-size: 18px;
+    color: #3e3e3e;
+    font-weight: 300; }
+  .registration .container .row .form-horizontal .form-group {
+    margin-bottom: 1px; }
+  .registration .container .row .purchase {
+    height: 40px; }
+    .registration .container .row .purchase .group.d-flex {
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .registration .container .row .purchase .group.d-flex .col-md-3.col-sm-6.d-flex {
+        justify-content: flex-start; }
+      .registration .container .row .purchase .group.d-flex p {
+        padding-bottom: 13px;
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        color: #3e3e3e;
+        font-weight: 400;
+        padding-left: 18px;
+        border-bottom: 1px solid #dbdbdb; }
+      .registration .container .row .purchase .group.d-flex .promo-code {
+        font-size: 18px;
+        color: #000;
+        font-weight: 400;
+        border-radius: 0;
+        border: #fff;
+        border-bottom: 1px solid #dbdbdb;
+        margin-bottom: 15px;
+        padding: 0 0 11px 0;
+        margin-left: 0;
+        outline: none; }
+      .registration .container .row .purchase .group.d-flex #myform {
+        text-align: center;
+        padding: 0;
+        margin: 0 0 15px 0; }
+      .registration .container .row .purchase .group.d-flex .qty {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        background-color: #fff;
+        border: 1px solid #dbdbdb;
+        color: #3e3e3e;
+        outline: none; }
+      .registration .container .row .purchase .group.d-flex input.qtyplus {
+        width: 40px;
+        height: 40px;
+        background-color: #dbdbdb;
+        border: 1px solid #dbdbdb;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 300;
+        outline: none;
+        font-family: 'DejaVu Sans Light', sans-serif; }
+      .registration .container .row .purchase .group.d-flex input.qtyminus {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border: 1px solid #dbdbdb;
+        color: #3e3e3e;
+        font-size: 25px;
+        font-weight: 300;
+        outline: none;
+        font-family: 'DejaVu Sans Light', sans-serif; }
+    .registration .container .row .purchase .btn-default {
+      margin-bottom: 117px;
+      border: 3px solid #000;
+      border-radius: 0;
+      background-color: #fff;
+      padding: 11px 65px 12px 66px;
+      background-image: none;
+      font-size: 18px;
+      color: #000;
+      letter-spacing: 2px;
+      margin-top: 53px; }
 
 /*# sourceMappingURL=valli.css.map */
