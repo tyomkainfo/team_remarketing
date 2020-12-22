@@ -31,7 +31,7 @@ header {
           margin-right: 0;
           border: none;
           &:hover {
-            background-color: black;
+            background-color: #000000;
           }
           .icon-bar {
             background-color: white;
@@ -56,6 +56,9 @@ header {
             font-family: $font-sub;
             font-size: 18px;
             color: #ffffff;
+            @include max-screen(1024px) {
+              font-size: 16px;
+            }
             &:hover {
               text-decoration: line-through;
               color: #ffffff;
@@ -132,15 +135,8 @@ header {
           font-family: $font-main;
           font-weight: bold;
         }
-        .hr-dashed {
-          margin: 20px 0;
-          padding: 0;
-          height: 0;
-          border: none;
-          border-top: 2px dashed #ffffff!important;
-
-        }
       }
     }
   }
 }
+
