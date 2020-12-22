@@ -8,8 +8,12 @@ $font-sub: 'Oswald', sans-serif;
     padding-top: 114px;
     padding-bottom: 60px;
     text-align: left;
-  }
 
+  }
+  .col-md-offset-9.text {
+    position: absolute;
+    padding-top: 110px;
+  }
   h1 {
     $font-sub: 'Oswald', sans-serif;
     font-size: 50px;

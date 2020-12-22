@@ -101,6 +101,9 @@
     padding-top: 114px;
     padding-bottom: 60px;
     text-align: left; }
+  .main-banner .col-md-offset-9.text {
+    position: absolute;
+    padding-top: 110px; }
   .main-banner h1 {
     font-size: 50px;
     color: white;
