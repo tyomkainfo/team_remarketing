@@ -1,4 +1,5 @@
 $font-sub: 'Oswald', sans-serif;
+$font-main: 'Myriad Pro', sans-serif;
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -97,5 +98,49 @@ header {
   @include max-screen(768px) {
     font-size: 30px;
     line-height: 30px;
+  }
+}
+
+.price {
+  border-top: solid 3px #ffffff;
+  padding: 75px 15px 54px;
+  background: #000000;
+  .container {
+    .row {
+      h3 {
+       text-transform: uppercase;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: $font-main;
+        font-weight: bold;
+      }
+      .wrapper-img-price {
+        width: 137px;
+        height: 423px;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper-price {
+        color: #ffffff;
+        font-size: 18px;
+        font-family: $font-sub;
+        margin-bottom: 50px;
+        span {
+          color: #ffffff;
+          font-size: 30px;
+          font-family: $font-main;
+          font-weight: bold;
+        }
+        .hr-dashed {
+          margin: 20px 0;
+          padding: 0;
+          height: 0;
+          border: none;
+          border-top: 2px dashed #ffffff!important;
+
+        }
+      }
+    }
   }
 }
