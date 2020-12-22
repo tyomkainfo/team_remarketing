@@ -14,13 +14,14 @@ $font-sub: 'Oswald', sans-serif;
   .container {
     padding-top: 98px;
     padding-bottom: 35px;
-
     h3 {
       font-family: $font-main;
       margin-bottom: 71px;
       font-weight: 700;
       font-size: 30px;
+      color: white;
     }
+
     .text {
       p {
         display: inline-block;
@@ -32,6 +33,7 @@ $font-sub: 'Oswald', sans-serif;
 
         a {
           text-decoration: underline;
+          color: white;
         }
       }
     }
@@ -41,4 +43,28 @@ $font-sub: 'Oswald', sans-serif;
 .footer {
   background-color: $remark_bg;
   font-family: $font-sub;
+
+  .container {
+    padding-top: 72px;
+    padding-bottom: 68px;
+    h4{
+      line-height: 1.5;
+      font-size: 18px;
+      font-family: $font-sub;
+      color: white;
+      padding-bottom: 23px;
+    }
+
+    .social {
+      padding-top: 41px;
+
+      a {
+        color: white;
+        border: solid 1px white;
+        border-radius: 1px;
+        margin-left: 5px;
+        padding: 8px;
+      }
+    }
+  }
 }

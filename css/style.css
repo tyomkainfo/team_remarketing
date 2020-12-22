@@ -463,4 +463,51 @@ header {
       font-size: 30px;
       line-height: 30px; } }
 
+.d-flex {
+  display: flex; }
+
+.contacts {
+  background-color: black;
+  font-family: "Oswald", sans-serif; }
+  .contacts .container {
+    padding-top: 98px;
+    padding-bottom: 35px; }
+    .contacts .container h3 {
+      font-family: "Myriad Pro", sans-serif;
+      margin-bottom: 71px;
+      font-weight: 700;
+      font-size: 30px;
+      color: white; }
+    .contacts .container .text p {
+      display: inline-block;
+      margin-bottom: 115px;
+      text-align: left;
+      color: white;
+      font-size: 24px;
+      font-family: "Oswald", sans-serif; }
+      .contacts .container .text p a {
+        text-decoration: underline;
+        color: white; }
+
+.footer {
+  background-color: black;
+  font-family: "Oswald", sans-serif; }
+  .footer .container {
+    padding-top: 72px;
+    padding-bottom: 68px; }
+    .footer .container h4 {
+      line-height: 1.5;
+      font-size: 18px;
+      font-family: "Oswald", sans-serif;
+      color: white;
+      padding-bottom: 23px; }
+    .footer .container .social {
+      padding-top: 41px; }
+      .footer .container .social a {
+        color: white;
+        border: solid 1px white;
+        border-radius: 1px;
+        margin-left: 5px;
+        padding: 8px; }
+
 /*# sourceMappingURL=style.css.map */
