@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d671c269-983b-469a-8e98-093260c794f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_kaleriia_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_kaleriia_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608566519000</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Сhanged the navigation font for tablet and phone, removed the line in the price section">
+      <created>1608630003048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608630003048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,13 +126,14 @@
     <MESSAGE value="add link font-family" />
     <MESSAGE value="added a menu, a &quot;back-top&quot; button and made anchor links to the speakers block, program, registration." />
     <MESSAGE value="added menu, style file and logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added menu, style file and logo" />
+    <MESSAGE value="Сhanged the navigation font for tablet and phone, removed the line in the price section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сhanged the navigation font for tablet and phone, removed the line in the price section" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1608566515704">
+    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1608630001507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608566515704" />
+    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608630001507" />
     <state x="577" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325920677" />
     <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1608389564579">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -148,10 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608389571525" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608566566211">
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608630030414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608566566211" />
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608630030414" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325975948" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608390751416">
       <screen x="0" y="0" width="1920" height="1040" />
