@@ -128,10 +128,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="added menu, style file and logo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1608566515704">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="103" y="0" key="CommitChangelistDialog2" timestamp="1608633302520">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608566515704" />
+    <state x="103" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1608633302520" />
     <state x="577" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325920677" />
     <state x="446" y="246" key="EditFileWatcherDialog" timestamp="1608633128512">
       <screen x="0" y="0" width="1440" height="860" />
@@ -156,10 +157,11 @@
     </state>
     <state x="346" y="134" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608633131936" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608389571525" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608566566211">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="414" y="209" key="Vcs.Push.Dialog.v2" timestamp="1608633276444">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608566566211" />
+    <state x="414" y="209" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1608633276444" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325975948" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1608390751416">
       <screen x="0" y="0" width="1920" height="1040" />
