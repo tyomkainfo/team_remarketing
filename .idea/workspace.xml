@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/evgeniya_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/yevhenii-style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b588f648aed0c88f24bda447f4d28b4047b34b24/yevhenii-style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_kaleriia_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_kaleriia_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,36 +13,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="991" column="14" lean-forward="true" selection-start-line="991" selection-start-column="14" selection-end-line="991" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="1100" column="10" lean-forward="true" selection-start-line="1100" selection-start-column="10" selection-end-line="1100" selection-end-column="10" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9645#9652#1" expanded="true" />
-                <element signature="e#11413#11420#1" expanded="true" />
-                <element signature="e#13195#13202#1" expanded="true" />
-                <element signature="e#14971#14978#1" expanded="true" />
-                <element signature="e#16752#16759#1" expanded="true" />
-                <element signature="e#18535#18542#1" expanded="true" />
-                <element signature="e#20318#20325#1" expanded="true" />
-                <element signature="e#22101#22108#1" expanded="true" />
-                <element signature="e#23896#23903#1" expanded="true" />
-                <element signature="e#25679#25686#1" expanded="true" />
-                <element signature="e#27457#27464#1" expanded="true" />
-                <element signature="e#29237#29244#1" expanded="true" />
-                <element signature="e#31017#31024#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#10117#10124#1" expanded="true" />
+                <element signature="e#11885#11892#1" expanded="true" />
+                <element signature="e#13667#13674#1" expanded="true" />
+                <element signature="e#15443#15450#1" expanded="true" />
+                <element signature="e#17224#17231#1" expanded="true" />
+                <element signature="e#19007#19014#1" expanded="true" />
+                <element signature="e#20790#20797#1" expanded="true" />
+                <element signature="e#22573#22580#1" expanded="true" />
+                <element signature="e#24368#24375#1" expanded="true" />
+                <element signature="e#26151#26158#1" expanded="true" />
+                <element signature="e#27929#27936#1" expanded="true" />
+                <element signature="e#29709#29716#1" expanded="true" />
+                <element signature="e#31489#31496#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.scss">
+        <entry file="file://$PROJECT_DIR$/css/polina_style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="514">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -58,24 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1225">
               <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/_kaleriia_style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../onePage/css/Anastasia_style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -99,8 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/Anastasia_style.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/_kaleriia_style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -204,11 +180,25 @@
       <option name="project" value="LOCAL" />
       <updated>1608590521533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change font-size in menu; replace &quot;price&quot; and add &quot;after&quot; in this section">
+      <created>1608637473720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608637473720</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change font-size in menu; replace &quot;price&quot; and add &quot;after&quot; in this section">
+      <created>1608637557341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608637557341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6721000" />
+    <option name="totallyTimeSpent" value="7742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -276,7 +266,8 @@
     <MESSAGE value="imported file yevhenii-style.css" />
     <MESSAGE value="add link font-family" />
     <MESSAGE value="change paddings in specialists" />
-    <option name="LAST_COMMIT_MESSAGE" value="change paddings in specialists" />
+    <MESSAGE value="change font-size in menu; replace &quot;price&quot; and add &quot;after&quot; in this section" />
+    <option name="LAST_COMMIT_MESSAGE" value="change font-size in menu; replace &quot;price&quot; and add &quot;after&quot; in this section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="28" key="CommitChangelistDialog2" timestamp="1608566207173">
@@ -327,29 +318,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="991" column="14" lean-forward="true" selection-start-line="991" selection-start-column="14" selection-end-line="991" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9645#9652#1" expanded="true" />
-            <element signature="e#11413#11420#1" expanded="true" />
-            <element signature="e#13195#13202#1" expanded="true" />
-            <element signature="e#14971#14978#1" expanded="true" />
-            <element signature="e#16752#16759#1" expanded="true" />
-            <element signature="e#18535#18542#1" expanded="true" />
-            <element signature="e#20318#20325#1" expanded="true" />
-            <element signature="e#22101#22108#1" expanded="true" />
-            <element signature="e#23896#23903#1" expanded="true" />
-            <element signature="e#25679#25686#1" expanded="true" />
-            <element signature="e#27457#27464#1" expanded="true" />
-            <element signature="e#29237#29244#1" expanded="true" />
-            <element signature="e#31017#31024#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -368,6 +336,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onePage/css/Anastasia_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/polina_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1100" column="10" lean-forward="true" selection-start-line="1100" selection-start-column="10" selection-end-line="1100" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10117#10124#1" expanded="true" />
+            <element signature="e#11885#11892#1" expanded="true" />
+            <element signature="e#13667#13674#1" expanded="true" />
+            <element signature="e#15443#15450#1" expanded="true" />
+            <element signature="e#17224#17231#1" expanded="true" />
+            <element signature="e#19007#19014#1" expanded="true" />
+            <element signature="e#20790#20797#1" expanded="true" />
+            <element signature="e#22573#22580#1" expanded="true" />
+            <element signature="e#24368#24375#1" expanded="true" />
+            <element signature="e#26151#26158#1" expanded="true" />
+            <element signature="e#27929#27936#1" expanded="true" />
+            <element signature="e#29709#29716#1" expanded="true" />
+            <element signature="e#31489#31496#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
