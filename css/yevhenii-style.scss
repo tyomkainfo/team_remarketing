@@ -1,0 +1,48 @@
+$remark_bg: black;
+$font-main: 'Myriad Pro', sans-serif;
+$font-sub: 'Oswald', sans-serif;
+
+.main-banner{
+  background-color: $remark_bg;
+  .row {
+    padding-top: 114px;
+    padding-bottom: 60px;
+    text-align: left;
+  }
+
+  h1 {
+    $font-sub: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    line-height: 36px;
+  }
+  h4 {
+    $font-sub: 'Oswald', sans-serif;
+    color: white;
+    line-height: 15px;
+    padding-bottom: 57px;
+  }
+  p {
+    $font-sub: 'Oswald', sans-serif;
+    color: white;
+    font-size: 29px;
+    line-height: 36px;
+    padding-bottom: 55px;
+  }
+  a.btn{
+    border: solid 2px white;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    color: white;
+    font-family: $font-sub;
+  }
+  a.btn:hover{
+    border: solid 2px black;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    color:black;
+    background: white;
+    font-family: $font-sub;
+    transition-duration: 0.2s;
+  }
+}

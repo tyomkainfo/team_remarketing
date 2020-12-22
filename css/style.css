@@ -47,7 +47,8 @@
         margin-bottom: 15px;
         padding: 0 0 11px 0;
         margin-left: 0;
-        outline: none; }
+        outline: none;
+        width: 100%; }
       .registration .container .row .purchase .group.d-flex #myform {
         text-align: center;
         padding: 0;
@@ -91,127 +92,71 @@
       font-size: 18px;
       color: #000;
       letter-spacing: 2px;
-      margin-top: 53px; }
-  font-family: "Oswald", sans-serif;
-}
-.registration .container h3 {
-  font-family: "Myriad Pro", sans-serif;
-  margin-bottom: 71px;
-  font-weight: 700;
-  font-size: 30px;
-}
-.registration .container .row .form-horizontal input {
-  margin-bottom: 15px;
-}
-.registration .container .row .form-horizontal .form-control {
-  border-radius: 0;
-  padding: 13px 0 10px 19px;
-  font-size: 18px;
-  color: #3e3e3e;
-  font-weight: 300;
-}
-.registration .container .row .form-horizontal .form-group {
-  margin-bottom: 1px;
-}
-.registration .container .row .purchase {
-  height: 40px;
-}
-.registration .container .row .purchase .group.d-flex {
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.registration .container .row .purchase .group.d-flex .col-md-3.col-sm-6.d-flex {
-  justify-content: flex-start;
-}
-.registration .container .row .purchase .group.d-flex p {
-  padding-bottom: 13px;
-  margin: 0 0 15px 0;
-  font-size: 18px;
-  color: #3e3e3e;
-  font-weight: 400;
-  padding-left: 18px;
-  border-bottom: 1px solid #dbdbdb;
-}
-.registration .container .row .purchase .group.d-flex .promo-code {
-  font-size: 18px;
-  color: #000;
-  font-weight: 400;
-  border-radius: 0;
-  border: #fff;
-  border-bottom: 1px solid #dbdbdb;
-  margin-bottom: 15px;
-  padding: 0 0 11px 0;
-  margin-left: 0;
-  outline: none;
-  width: 100%;
-}
-.registration .container .row .purchase .group.d-flex #myform {
-  text-align: center;
-  padding: 0;
-  margin: 0 0 15px 0;
-}
-.registration .container .row .purchase .group.d-flex .qty {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  background-color: #fff;
-  border: 1px solid #dbdbdb;
-  color: #3e3e3e;
-  outline: none;
-}
-.registration .container .row .purchase .group.d-flex input.qtyplus {
-  width: 40px;
-  height: 40px;
-  background-color: #dbdbdb;
-  border: 1px solid #dbdbdb;
-  font-size: 25px;
-  color: #fff;
-  font-weight: 300;
-  outline: none;
-  font-family: "DejaVu Sans Light", sans-serif;
-}
-.registration .container .row .purchase .group.d-flex input.qtyminus {
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
-  border: 1px solid #dbdbdb;
-  color: #3e3e3e;
-  font-size: 25px;
-  font-weight: 300;
-  outline: none;
-  font-family: "DejaVu Sans Light", sans-serif;
-}
-.registration .container .row .purchase .btn-default {
-  margin-bottom: 117px;
-  border: 3px solid #000;
-  border-radius: 0;
-  background-color: #fff;
-  padding: 11px 65px 12px 66px;
-  background-image: none;
-  font-size: 18px;
-  color: #000;
-  letter-spacing: 2px;
-  margin-top: 53px;
-  outline: none;
-}
+      margin-top: 53px;
+      outline: none; }
+
+.main-banner {
+  background-color: black; }
+  .main-banner .row {
+    padding-top: 114px;
+    padding-bottom: 60px;
+    text-align: left; }
+  .main-banner h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 36px; }
+  .main-banner h4 {
+    color: white;
+    line-height: 15px;
+    padding-bottom: 57px; }
+  .main-banner p {
+    color: white;
+    font-size: 29px;
+    line-height: 36px;
+    padding-bottom: 55px; }
+  .main-banner a.btn {
+    border: solid 2px white;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif; }
+  .main-banner a.btn:hover {
+    border: solid 2px black;
+    padding: 16px 23px 16px 23px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    font-family: "Oswald", sans-serif;
+    transition-duration: 0.2s; }
 
 .specialists {
   padding-top: 90px; }
+  @media screen and (max-width: 768px) {
+    .specialists {
+      padding-top: 40px; } }
   .specialists h3 {
     font-size: 30px;
     font-family: "Myriad Pro", sans-serif;
     text-transform: uppercase;
     margin-bottom: 86px; }
+    @media screen and (max-width: 768px) {
+      .specialists h3 {
+        margin-bottom: 40px; } }
   .specialists img {
     width: 100%;
     height: 100%;
     margin-bottom: 58px; }
+    @media screen and (max-width: 768px) {
+      .specialists img {
+        margin-bottom: 5px; } }
   .specialists h4 {
     font-size: 18px;
     font-family: "Oswald", sans-serif;
     margin-bottom: 56px;
     color: black; }
+    @media screen and (max-width: 768px) {
+      .specialists h4 {
+        margin-bottom: 30px; } }
   .specialists:after {
     content: "";
     display: block;
@@ -221,59 +166,7 @@
     @media screen and (max-width: 768px) {
       .specialists:after {
         border-bottom: none;
-        padding-top: 40px; } }
-  padding-top: 90px;
-}
-@media screen and (max-width: 768px) {
-  .specialists {
-    padding-top: 40px;
-  }
-}
-.specialists h3 {
-  font-size: 30px;
-  font-family: "Myriad Pro", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 86px;
-}
-@media screen and (max-width: 768px) {
-  .specialists h3 {
-    margin-bottom: 40px;
-  }
-}
-.specialists img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 58px;
-}
-@media screen and (max-width: 768px) {
-  .specialists img {
-    margin-bottom: 5px;
-  }
-}
-.specialists h4 {
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  margin-bottom: 56px;
-  color: black;
-}
-@media screen and (max-width: 768px) {
-  .specialists h4 {
-    margin-bottom: 30px;
-  }
-}
-.specialists:after {
-  content: "";
-  display: block;
-  width: 40%;
-  border-bottom: 1px dashed black;
-  padding-top: 130px;
-}
-@media screen and (max-width: 768px) {
-  .specialists:after {
-    border-bottom: none;
-    padding-top: 30px;
-  }
-}
+        padding-top: 30px; } }
 
 .last_block:after {
   content: "";
@@ -283,23 +176,20 @@
 .discount {
   background-color: black;
   padding-top: 100px;
-  padding-bottom: 120px;
-}
-.discount h3 {
-  max-width: 600px;
-  width: 100%;
-  font-size: 30px;
-  color: white;
-  font-family: "Myriad Pro", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 100px;
-}
-.discount p {
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  color: white;
-  font-weight: 300;
-}
+  padding-bottom: 120px; }
+  .discount h3 {
+    max-width: 600px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 100px; }
+  .discount p {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-weight: 300; }
 
 .program h3 {
   font-family: "Myriad Pro", sans-serif;
@@ -489,7 +379,7 @@
       color: white;
       line-height: 36px; }
     .remark .row .Alex_bottle_1 {
-      margin-left: 40px;
+      text-align: center;
       margin-top: 20px; }
     .remark .row .text {
       display: inline-block;
@@ -504,38 +394,6 @@
         display: inline-block;
         margin-top: 20px;
         margin-bottom: 20px; }
-  border-top: 4px solid white;
-}
-.remark .row {
-  padding-top: 90px;
-  padding-bottom: 140px;
-}
-.remark .row h3 {
-  font-family: "Myriad Pro", sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: white;
-  line-height: 36px;
-}
-.remark .row .Alex_bottle_1 {
-  text-align: center;
-  margin-top: 20px;
-}
-.remark .row .text {
-  display: inline-block;
-  margin-top: 80px;
-  text-decoration: none;
-  text-align: left;
-  line-height: 20px;
-  color: white;
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-}
-.remark .row .text span {
-  display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .remark_2 {
   background-color: black;
@@ -559,35 +417,8 @@
       font-size: 18px;
       font-family: "Oswald", sans-serif; }
     .remark_2 .row .Alex_bottle_2 {
-      margin-left: 40px;
+      text-align: center;
       margin-top: 20px; }
-  border-top: 4px solid white;
-}
-.remark_2 .row {
-  padding-top: 80px;
-  padding-bottom: 210px;
-}
-.remark_2 .row h3 {
-  font-family: "Myriad Pro", sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: white;
-  line-height: 36px;
-}
-.remark_2 .row p {
-  display: inline-block;
-  margin-top: 80px;
-  text-decoration: none;
-  text-align: left;
-  line-height: 20px;
-  color: white;
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-}
-.remark_2 .row .Alex_bottle_2 {
-  text-align: center;
-  margin-top: 20px;
-}
 
 header {
   font-size: 0; }
@@ -609,7 +440,7 @@ header {
       margin-right: 0;
       border: none; }
       .navbar .container .row .navbar-header .navbar-toggle:hover {
-        background-color: black; }
+        background-color: #000000; }
       .navbar .container .row .navbar-header .navbar-toggle .icon-bar {
         background-color: white; }
     .navbar .container .row .navbar-header .navbar-brand {
@@ -626,6 +457,9 @@ header {
       font-family: "Oswald", sans-serif;
       font-size: 18px;
       color: #ffffff; }
+      @media screen and (max-width: 1024px) {
+        .navbar .container ul li a {
+          font-size: 16px; } }
       .navbar .container ul li a:hover {
         text-decoration: line-through;
         color: #ffffff; }
@@ -668,98 +502,74 @@ header {
 .price {
   border-top: solid 3px #ffffff;
   padding: 75px 15px 54px;
-  background: #000000;
-}
-.price .container .row h3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 30px;
-  font-family: "Myriad Pro", sans-serif;
-  font-weight: bold;
-}
-.price .container .row .wrapper-img-price {
-  width: 137px;
-  height: 423px;
-}
-.price .container .row .wrapper-img-price img {
-  width: 100%;
-}
-.price .container .row .wrapper-price {
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  margin-bottom: 50px;
-}
-.price .container .row .wrapper-price span {
-  color: #ffffff;
-  font-size: 30px;
-  font-family: "Myriad Pro", sans-serif;
-  font-weight: bold;
-}
-.price .container .row .wrapper-price .hr-dashed {
-  margin: 20px 0;
-  padding: 0;
-  height: 0;
-  border: none;
-  border-top: 2px dashed #ffffff !important;
-}
+  background: #000000; }
+  .price .container .row h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold; }
+  .price .container .row .wrapper-img-price {
+    width: 137px;
+    height: 423px; }
+    .price .container .row .wrapper-img-price img {
+      width: 100%; }
+  .price .container .row .wrapper-price {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 50px; }
+    .price .container .row .wrapper-price span {
+      color: #ffffff;
+      font-size: 30px;
+      font-family: "Myriad Pro", sans-serif;
+      font-weight: bold; }
 
 .d-flex {
-  display: flex;
-}
+  display: flex; }
 
 .contacts {
   background-color: black;
-  font-family: "Oswald", sans-serif;
-}
-.contacts .container {
-  padding-top: 98px;
-  padding-bottom: 35px;
-}
-.contacts .container h3 {
-  font-family: "Myriad Pro", sans-serif;
-  margin-bottom: 71px;
-  font-weight: 700;
-  font-size: 30px;
-  color: white;
-}
-.contacts .container .text p {
-  display: inline-block;
-  margin-bottom: 115px;
-  text-align: left;
-  color: white;
-  font-size: 24px;
-  font-family: "Oswald", sans-serif;
-}
-.contacts .container .text p a {
-  text-decoration: underline;
-  color: white;
-}
+  font-family: "Oswald", sans-serif; }
+  .contacts .container {
+    padding-top: 98px;
+    padding-bottom: 35px; }
+    .contacts .container h3 {
+      font-family: "Myriad Pro", sans-serif;
+      margin-bottom: 71px;
+      font-weight: 700;
+      font-size: 30px;
+      color: white; }
+    .contacts .container .text p {
+      display: inline-block;
+      margin-bottom: 115px;
+      text-align: left;
+      color: white;
+      font-size: 24px;
+      font-family: "Oswald", sans-serif; }
+      .contacts .container .text p a {
+        text-decoration: underline;
+        color: white; }
 
 .footer {
   background-color: black;
-  font-family: "Oswald", sans-serif;
-}
-.footer .container {
-  padding-top: 72px;
-  padding-bottom: 68px;
-}
-.footer .container h4 {
-  line-height: 1.5;
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  color: white;
-  padding-bottom: 23px;
-}
-.footer .container .social {
-  padding-top: 41px;
-}
-.footer .container .social a {
-  color: white;
-  border: solid 1px white;
-  border-radius: 1px;
-  margin-left: 5px;
-  padding: 8px;
-}
+  font-family: "Oswald", sans-serif; }
+  .footer .container {
+    padding-top: 72px;
+    padding-bottom: 68px; }
+    .footer .container h4 {
+      line-height: 1.5;
+      font-size: 18px;
+      font-family: "Oswald", sans-serif;
+      color: white;
+      padding-bottom: 23px; }
+    .footer .container .social {
+      padding-top: 41px; }
+      .footer .container .social a {
+        color: white;
+        border: solid 1px white;
+        border-radius: 1px;
+        margin-left: 5px;
+        padding: 8px; }
 
 /*# sourceMappingURL=style.css.map */

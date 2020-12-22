@@ -4,7 +4,7 @@
     <list default="true" id="d671c269-983b-469a-8e98-093260c794f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_kaleriia_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_kaleriia_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/yevhenii-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/yevhenii-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="C:/Ruby27-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -49,7 +51,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6bdfa72e-99dd-4c23-b20c-810092c598dc" name="Default Changelist" comment="" />
+      <changelist id="d671c269-983b-469a-8e98-093260c794f4" name="Default Changelist" comment="" />
       <created>1608215469366</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -58,6 +60,8 @@
       <workItem from="1608236525272" duration="5056000" />
       <workItem from="1608323580587" duration="3798000" />
       <workItem from="1608390750228" duration="12015000" />
+      <workItem from="1608632777839" duration="45000" />
+      <workItem from="1608632870428" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="Add new section form plus css">
       <created>1608324947675</created>
@@ -105,12 +109,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -128,13 +133,15 @@
     </state>
     <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608566515704" />
     <state x="577" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608325920677" />
-    <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1608389564579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="446" y="246" key="EditFileWatcherDialog" timestamp="1608633128512">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="446" y="246" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1608633128512" />
     <state x="594" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608389564579" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1608389563429">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="554" y="227" key="FileChooserDialogImpl" timestamp="1608633127396">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="554" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1608633127396" />
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608389563429" />
     <state x="184" y="86" key="MergeDialog" timestamp="1608324862374">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -144,9 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608324862405" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1608389571525">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="346" y="134" key="SettingsEditor" timestamp="1608633131936">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="346" y="134" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608633131936" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608389571525" />
     <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608566566211">
       <screen x="0" y="0" width="1366" height="728" />
